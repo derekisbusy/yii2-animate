@@ -44,5 +44,5 @@ or by adding to your another assets dependencies list :
 Documentation
 -----------
  * [daneden/animate.css](https://github.com/daneden/animate.css)
- * [yii2](https://github.com/yiisoft/yii2) framework
+ * [yii2 assets](https://www.yiiframework.com/doc/guide/2.0/en/structure-assets)
 
