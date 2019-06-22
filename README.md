@@ -25,7 +25,24 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply use it by adding it to your view  :
 
 ```php
-<?= \derekisbusy\animate\AutoloadExample::widget(); ?>```
+use \derekisbusy\animate\AnimateAsset;
+
+AnimateAsset::register($this);
+```
+
+or by adding to your another assets dependencies list :
+
+```php
+  public $depends = [
+    'derekisbusy\animate\AnimateAsset'
+  ];
+```
+
+Documentation
+-----------
+ * [daneden/animate.css](https://github.com/daneden/animate.css)
+ * [yii2](https://github.com/yiisoft/yii2) framework
+
