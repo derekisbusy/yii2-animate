@@ -10,7 +10,4 @@ class AnimateAsset extends AssetBundle
     public $css = [
         'animate.min.css',
     ];
-    
-    public $depends = [
-    ];
 }
