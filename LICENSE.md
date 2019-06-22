@@ -1,6 +1,5 @@
 The MIT License (MIT)
 
-Copyright (c) 2019 Daniel Eden
 Copyright (c) 2019 Derek Gifford
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
