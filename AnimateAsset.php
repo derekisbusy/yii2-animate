@@ -5,9 +5,9 @@ use yii\web\AssetBundle;
 
 class AnimateAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/derekisbusy/animate';
+    public $sourcePath = '@vendor/derekisbusy/yii2-animate';
     
     public $css = [
-        'animate.min.css',
+        YII_ENV_DEV ? 'css/animate.css' : 'css/animate.min.css',
     ];
 }
